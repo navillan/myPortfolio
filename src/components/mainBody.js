@@ -1,5 +1,6 @@
 import RestoranRezervasyon from "../images/restoranRezerve.PNG";
 import KelimeBulmaca from "../images/kelimeBulmacaImg.PNG";
+import HesaplamaSitesi from "../images/hesaplamaSitesi.PNG";
 
 function MyWorks() {
 
@@ -25,6 +26,7 @@ function MyWorks() {
           <div className="work-item-text">
             <a href="https://navillan.github.io/hesap/">Hesap Sitesi</a>
             <p>A calculator website with many options. <a href="https://github.com/navillan/hesaplamaSitesi" target="_blank" rel="noopener noreferrer">Here</a> you can find the github repo for this project.</p>
+            <img className="work-item-image hesap-sitesi-img" src={HesaplamaSitesi} alt="Hesap-Sitesi-Screenshot" />
           </div>
         </div>
       </div>
