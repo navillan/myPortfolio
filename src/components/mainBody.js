@@ -24,7 +24,7 @@ function MyWorks() {
         </div>
         <div className="work-item">
           <div className="work-item-text">
-            <a href="https://navillan.github.io/hesap/">Hesap Sitesi</a>
+            <a href="https://navillan.github.io/hesaplamaSitesi" target="_blank" rel="noopener noreferrer">Hesap Sitesi</a>
             <p>A calculator website with many options. <a href="https://github.com/navillan/hesaplamaSitesi" target="_blank" rel="noopener noreferrer">Here</a> you can find the github repo for this project.</p>
             <img className="work-item-image hesap-sitesi-img" src={HesaplamaSitesi} alt="Hesap-Sitesi-Screenshot" />
           </div>

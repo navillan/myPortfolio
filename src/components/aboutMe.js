@@ -32,7 +32,7 @@ function AboutMe() {
           <li>HTML / CSS</li>
           <li>JavaScript (ES6+)</li>
           <li>jQuery</li>
-          <li>React (Cors, Express, Axios)</li>
+          <li>React (Cors, Express, Axios, Router)</li>
           <li>Node.js</li>
           <li>Next.js</li>
           <li>FirebaseDB</li>
