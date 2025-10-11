@@ -35,7 +35,7 @@ function AboutMe() {
           <li>React (Cors, Express, Axios, Router)</li>
           <li>Node.js</li>
           <li>Next.js</li>
-          <li>FirebaseDB</li>
+          <li>Firestore</li>
         </ul>
       </div>
     </div>
