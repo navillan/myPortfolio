@@ -144,6 +144,10 @@ body {
   color: lightgray;
 }
 
+.work-item .test-your-luck-img {
+  margin-top: 1rem;
+}
+
 .restoran-rezervasyon-img {
   margin-top: 0.2rem;
 }
@@ -206,6 +210,9 @@ body {
   .work-item-image {
     margin-top: 3.3rem;
   }
+  .work-item .test-your-luck-img {
+    margin-top: 2.8rem;
+  }
   .restoran-rezervasyon-img {
     margin-top: 2rem;
   }
@@ -214,13 +221,17 @@ body {
     height: 420px;
     margin-top: -0.4rem;
   }
-  .restoran-rezervasyon:hover, .hesaplama-sitesi:hover {
+  .test-your-luck:hover, .kelime-bulmaca:hover {
     transform: translateX(10%);
 
   }
-  .kelime-bulmaca:hover, .example-ecommerce:hover {
+  .restoran-rezervasyon:hover, .hesaplama-sitesi:hover {
     transform: translateX(-10%);
   }  
+  .example-ecommerce:hover {
+    transform: translateY(-10%);
+  }
+
   .work-item-text {
     font-size: 18px;
     margin-top: 0.6rem;
@@ -254,6 +265,9 @@ body {
   .work-item-image {
     margin-top: 2.5rem;
   }
+  .work-item .test-your-luck-img {
+    margin-top: 1.4rem;
+  }
   .restoran-rezervasyon-img {
     margin-top: 0.2rem;
   }
@@ -268,16 +282,21 @@ body {
     transform: scale(1.4);
     margin-top: 4rem;
   }
+  .work-item:hover .test-your-luck-img {
+    margin-top: 2.4rem;
+  }
   .work-item:hover .restoran-rezervasyon-img {
     margin-top: 1.8rem;
     transform: scale(1.2);
   }
   .restoran-rezervasyon:hover, .hesaplama-sitesi:hover {
-    transform: translateX(10%);
-
-  }
-  .kelime-bulmaca:hover, .example-ecommerce:hover {
     transform: translateX(-10%);
+  }
+  .test-your-luck:hover, .kelime-bulmaca:hover {
+    transform: translateX(10%);
+  }
+  .example-ecommerce:hover {
+    transform: translateY(-10%);
   }
 }
 
@@ -303,10 +322,8 @@ body {
   .work-item:hover .kelime-bulmaca-img {
     margin-top: 3.2rem;
   }
-  .restoran-rezervasyon:hover, .hesaplama-sitesi:hover {
-    transform: scale(1.2);
-
-  }
+  .test-your-luck:hover,
+  .restoran-rezervasyon:hover, .hesaplama-sitesi:hover,
   .kelime-bulmaca:hover, .example-ecommerce:hover {
     transform: scale(1.2);
   }

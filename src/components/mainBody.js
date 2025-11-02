@@ -2,6 +2,7 @@ import RestoranRezervasyon from "../images/restoranRezerve.PNG";
 import KelimeBulmaca from "../images/kelimeBulmacaImg.PNG";
 import HesaplamaSitesi from "../images/hesaplamaSitesi.PNG";
 import ExampleEcommerce from "../images/exampleEcommerceSite.PNG";
+import TestYourLuck from "../images/testYourLuckImg.PNG"
 
 function MyWorks() {
 
@@ -9,6 +10,14 @@ function MyWorks() {
     <div className="main-works">
       <h2>My Works</h2>
       <div className="works-list">
+        <div className="work-item test-your-luck">
+          <div className="work-item-text">
+            <a href="https://navillan.github.io/testYourLuck/" target="_blank" rel="noopener noreferrer">Test Your Luck</a>
+            <p>This was my first project: a game in which you compete against the computer. It marked the beginning of my journey. <a href="https://github.com/navillan/testYourLuck" target="_blank" rel="noopener noreferrer">Here</a> you can find the gitHub repo for this project.</p>
+            <p className="tech-stack-description">Techs: HTML5, CSS3, Vanilla JavaScript</p>
+          </div>
+          <img className="work-item-image test-your-luck-img" src={TestYourLuck} alt="Test-Your-Luck-Screenshot" />
+        </div>
         <div className="work-item restoran-rezervasyon">
           <div className="work-item-text">
             <a href="https://navillan.github.io/js990projectFirebase/" target="_blank" rel="noopener noreferrer">Restoran Rezervasyon Sitesi</a>
