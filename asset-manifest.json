@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.b5cbb77d.css",
-    "main.js": "/myPortfolio/static/js/main.bb6a510b.js",
+    "main.js": "/myPortfolio/static/js/main.b2a184b9.js",
     "static/media/testYourLuckImg.PNG": "/myPortfolio/static/media/testYourLuckImg.06918f5730226ffa6966.PNG",
     "static/media/AriBilgiBilisimJavascriptSertifikaMS.jpg": "/myPortfolio/static/media/AriBilgiBilisimJavascriptSertifikaMS.dfd550794446f9c435dc.jpg",
     "static/media/exampleEcommerceSite.PNG": "/myPortfolio/static/media/exampleEcommerceSite.c97c509a96c1e5bbcd1d.PNG",
@@ -11,10 +11,10 @@
     "static/media/hesaplamaSitesi.PNG": "/myPortfolio/static/media/hesaplamaSitesi.56cb59bf73cd60de3b7e.PNG",
     "index.html": "/myPortfolio/index.html",
     "main.b5cbb77d.css.map": "/myPortfolio/static/css/main.b5cbb77d.css.map",
-    "main.bb6a510b.js.map": "/myPortfolio/static/js/main.bb6a510b.js.map"
+    "main.b2a184b9.js.map": "/myPortfolio/static/js/main.b2a184b9.js.map"
   },
   "entrypoints": [
     "static/css/main.b5cbb77d.css",
-    "static/js/main.bb6a510b.js"
+    "static/js/main.b2a184b9.js"
   ]
 }
