@@ -20,7 +20,7 @@ function AboutMe() {
           web development. I currently divide my time between developing personal projects and solving algorithm problems to prepare for a career in the industry. I'm eager to apply my knowledge and grow as a developer.
         </p>
       </div>
-      <h2>My Certificate</h2>
+      <h2>My Javascript Certificate</h2>
       <img
         className={`about-me-certificate`}
         src={ThisIsMyCertificate}
