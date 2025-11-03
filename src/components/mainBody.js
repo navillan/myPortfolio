@@ -4,7 +4,7 @@ function MyWorks() {
 
   return (
     <div className="main-works">
-      <h2>My Works</h2>
+      <div className="my-works-header">My Works</div>
       <div className="works-list">
         {myWorksList.map((work)=>(
           <div className="work-item" key={work.name}>
