@@ -36,8 +36,8 @@ function MyWorks() {
         </div>
         <div className="work-item hesaplama-sitesi">
           <div className="work-item-text">
-            <a href="https://navillan.github.io/hesaplamaSitesi" target="_blank" rel="noopener noreferrer">Hesap Sitesi(Not Finished)</a>
-            <p>A calculator website offering a wide range of features. The project remains under active development; however, several capabilities are already available for use. <a href="https://github.com/navillan/hesaplamaSitesi" target="_blank" rel="noopener noreferrer">Here</a> you can find the GitHub repository for this project.</p>
+            <a href="https://navillan.github.io/hesaplamaSitesi" target="_blank" rel="noopener noreferrer">Hesap Sitesi</a>
+            <p>A calculator website offering a wide range of features. The project remains under active development; however, several capabilities are already available for use. <a href="https://github.com/navillan/hesaplamaSitesi" target="_blank" rel="noopener noreferrer">Here</a> you can find the github repo for this project.</p>
             <p className="tech-stack-description">Techs: React</p>
             <img className="work-item-image hesap-sitesi-img" src={HesaplamaSitesi} alt="Hesap-Sitesi-Screenshot" />
           </div>
