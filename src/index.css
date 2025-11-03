@@ -3,7 +3,7 @@ body {
   color: white;
   margin: 0px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 0.9rem;
 }
 
@@ -58,16 +58,16 @@ body {
   height: auto;
   border-radius: 8px;
   margin-top: 0.4rem;
-  transition: all 0.8s ease, box-shadow 0.7s ease;
+  transition: all 0.8s ease;
 }
 
 .about-me-certificate:hover {
-  transform: scale(2.5);
+  transform: scale(2.2);
   border-radius: 0;
   object-fit: contain;
   box-shadow: 0 0 4px 2px chocolate;
   background: #222;
-  transition: all 0.8s ease, box-shadow 0.7s ease;
+  transition: all 0.8s ease;
 }
 
 .about-me-tech {
@@ -103,6 +103,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2px;
+  transition: transform 0.6s ease;
 }
 
 .work-item {
@@ -113,55 +114,48 @@ body {
   border-style: solid;
   border-color: white;
   background-color: rgb(50, 50, 50);
+  display: flex;
+  flex-direction: column;
   width: 320px;
   height: 300px;
   box-sizing: border-box;
-  transition: all 0.7s ease;
+  transition: all 0.6s ease;
 }
 
 .work-item-image {
-  height: auto;
-  max-height: 120px;
-  object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  transition: all 0.7s ease;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 .work-item a {
   color: chocolate;
 }
 
-.work-item-text {
-  transition: all 0.7s ease;
-  margin-top: -0.5rem;
+.work-name {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px 0 5px 0;
+}
+
+.work-description {
+  font-size: 14px;
 }
 
 .tech-stack-description {
-  margin: 0;
+  margin-top: 0;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 14px;
   color: lightgray;
 }
 
-.work-item .test-your-luck-img {
-  margin-top: 1rem;
-}
-
-.restoran-rezervasyon-img {
-  margin-top: 0.2rem;
-}
-
-.kelime-bulmaca-img {
-  margin-top: 4rem;
-}
-
-.example-ecommerce-img {
-  margin-top: 4rem;
-}
-
 .work-item:hover {
-  border-width: 1px;
+  transform: scale(1.5);
   box-shadow: 0 0 15px 2px white;
   z-index: 100;
 }
@@ -192,7 +186,7 @@ body {
 
 @media (max-width: 1360px) {
   .about-me-certificate:hover {
-    transform: scale(3);
+    transform: scale(2.4);
   }
   .works-list {
     width: 1140px;
@@ -203,102 +197,33 @@ body {
     width: 480px;
     height: 400px;
   }
+  .work-name {
+    font-size: 20px;
+  }
   .work-item-image {
-    margin-top: 3.3rem;
-  }
-  .work-item .test-your-luck-img {
-    margin-top: 2.8rem;
-  }
-  .restoran-rezervasyon-img {
-    margin-top: 2rem;
-  }
-  .work-item:hover .hesap-sitesi-img {
-    margin-top: 2.3rem;
+    height: 170px;
   }
   .work-item:hover {
-    width: 540px;
-    height: 420px;
-    margin-top: -0.4rem;
+    transform: scale(1.3);
+    margin-top: -0.2rem;
   }
-  .test-your-luck:hover, .kelime-bulmaca:hover {
-    transform: translateX(10%);
-
-  }
-  .restoran-rezervasyon:hover, .hesaplama-sitesi:hover {
-    transform: translateX(-10%);
-  }  
-  .example-ecommerce:hover {
-    transform: translateY(-10%);
-  }
-
-  .work-item-text {
+  .work-description {
     font-size: 18px;
     margin-top: 0.6rem;
   }
-  .work-item:hover .work-item-text {
-    font-size: 20px;
-    margin-top: 1rem;
-  }  
-  .work-item:hover img {
-    transform: scale(1.6);
-  }
-  .work-item:hover .restoran-rezervasyon-img {
-    margin-top: 2.4rem;
-    transform: scale(1.4);
-  }  
   .main-contact {
-    margin-top: 13rem;
+    margin-top: 70px;
   }
 }
 
 @media (max-width: 1150px) {
   .works-list {
     width: 900px;
-    margin-top: 6rem;
-    transition: transform 0.6s ease;
+    margin-top: 6rem;    
   }
   .work-item {
     width: 400px;
     height: 350px;
-  }
-  .work-item-image {
-    margin-top: 2.5rem;
-  }
-  .work-item .test-your-luck-img {
-    margin-top: 1.4rem;
-  }
-  .restoran-rezervasyon-img {
-    margin-top: 0.2rem;
-  }
-  .hesap-sitesi-img {
-    margin-top: 0.2rem;
-  }
-  .work-item:hover {
-    width: 440px;
-    border-width: 1px;    
-    box-shadow: 0 0 15px 2px white;
-    transition: all 0.9s ease;
-    z-index: 100;
-  }
-  .work-item:hover img {
-    transform: scale(1.4);
-    margin-top: 4rem;
-  }
-  .work-item:hover .test-your-luck-img {
-    margin-top: 2.4rem;
-  }
-  .work-item:hover .restoran-rezervasyon-img, .work-item:hover .hesap-sitesi-img {
-    margin-top: 1.8rem;
-    transform: scale(1.2);
-  }
-  .restoran-rezervasyon:hover, .hesaplama-sitesi:hover {
-    transform: translateX(-10%);
-  }
-  .test-your-luck:hover, .kelime-bulmaca:hover {
-    transform: translateX(10%);
-  }
-  .example-ecommerce:hover {
-    transform: translateY(-10%);
   }
 }
 
@@ -306,33 +231,15 @@ body {
   .works-list {
     width: 580px;
     margin-top: 3rem;
-    transition: transform 0.6s ease;
   }
-  .work-item img {
-    margin-top: 2rem;
+  .work-name {
+    font-size: 18px;
   }
-  .work-item .restoran-rezervasyon-img {
-    margin-top: 0.4rem;
-  }
-  .work-item .hesap-sitesi-img {
-    margin-top: 0.2rem;
-  }
-  .work-item:hover .work-item-text {
-    margin-top: 0.6rem;
-  }
-  .work-item:hover .example-ecommerce-img {
-    margin-top: 4rem;
-  }
-  .work-item:hover .kelime-bulmaca-img {
-    margin-top: 3.2rem;
-  }
-  .test-your-luck:hover,
-  .restoran-rezervasyon:hover, .hesaplama-sitesi:hover,
-  .kelime-bulmaca:hover, .example-ecommerce:hover {
-    transform: scale(1.2);
+  .work-description {
+    font-size: 16px;
   }
   .main-contact {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 }
 
@@ -346,39 +253,13 @@ body {
   .works-list {
     width: 330px;
     margin-top: 4rem;
-    transition: transform 0.6s ease;
   }
   .work-item {
     width: 280px;
     height: 400px;
   }
-  .work-item-text {
+  .work-description {
     font-size: 16px;
-  }
-  .work-item img {
-    margin-top: 4rem;
-  }
-  .work-item .restoran-rezervasyon-img {
-    margin-top: 1rem;
-  }
-  .work-item:hover {
-    width: 290px;
-    height: 420px;
-    border-width: 1px;    
-    box-shadow: 0 0 15px 2px white;
-    transition: all 0.9s ease;
-    z-index: 100;
-  }
-  .work-item:hover .work-item-text {
-    font-size: 18px;
-    margin-top: -0.2rem;
-  }
-  .work-item:hover .restoran-rezervasyon-img {
-    margin-top: 0.6rem;
-    transform: scale(1.1);
-  }
-  .work-item:hover .kelime-bulmaca-img, .work-item:hover .example-ecommerce-img {
-    margin-top: 5rem;
   }
   .main-contact {
     width: 92%;
