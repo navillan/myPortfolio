@@ -1,4 +1,3 @@
-import MainHeader from './mainHeader.js';
 import AboutMe from './aboutMe.js';
 import MyWorks from './mainBody.js';
 import Contact from './mainContact.js';
@@ -6,10 +5,11 @@ import Contact from './mainContact.js';
 function App() {
   return (
     <div className="App">
-      <MainHeader />
+      <div className="top-start"></div>
       <AboutMe />
       <MyWorks />
       <Contact />
+      <div className="bottom-end"></div>
     </div>
   );
 }

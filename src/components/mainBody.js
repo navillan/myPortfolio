@@ -3,7 +3,7 @@ import { myWorksList } from "../utils/myWorks.js";
 function MyWorks() {
 
   return (
-    <div className="main-works">
+    <div className="main-works">      
       <div className="my-works-header">My Works</div>
       <div className="works-list">
         {myWorksList.map((work)=>(

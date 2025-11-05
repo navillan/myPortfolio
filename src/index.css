@@ -7,14 +7,22 @@ body {
   font-size: 0.9rem;
 }
 
-.main-header {
+.top-start {
   border-bottom: 1px solid white;
-  box-shadow: 0 10px 10px -1px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 6px 1px rgba(255, 255, 255, 0.8);
+}
+.bottom-end {
+  border-bottom: 2px solid white;
+  box-shadow: 0 -2px 6px 1px rgba(255, 255, 255, 0.8);
 }
 
 .about-me {
   display: inline-block;
   margin: 2vh;
+}
+
+.about-me h2 {
+  margin-bottom: 0;
 }
 
 .about-me-main {
@@ -25,7 +33,8 @@ body {
 }
 
 .about-me-photo {
-  position: relative;
+  position: absolute;
+  left: 5%;
   width: 14vh;
   height: 14vh;
   border-radius: 50%;
@@ -233,6 +242,15 @@ body {
 }
 
 @media (max-width: 920px) {
+  .about-me {
+    width: 88%;
+  }
+  .about-me-photo {
+    left: 4%;
+  }
+  .about-me-photo:hover {
+    transform: scale(1.3) translate(15%);
+  }
   .works-list {
     width: 580px;
     margin-top: 3rem;
@@ -248,9 +266,22 @@ body {
   }
 }
 
+@media (max-width: 850px) {
+  .about-me-photo {
+    left: 4%;
+    height: 12vh;
+    width: 12vh;
+  }
+}
+
 @media (max-width: 600px) {
   .about-me {
     width: 88%;
+  }
+  .about-me-photo {
+    left: 2%;
+    height: 12vh;
+    width: 12vh;
   }
   .about-me-certificate:hover {
     transform: scale(1.7);
@@ -271,5 +302,16 @@ body {
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-me-photo {
+    left: 5%;
+    height: 8vh;
+    width: 8vh;
+  }
+  .about-me-photo:hover {
+    transform: scale(1.6) translate(20%);
   }
 }
