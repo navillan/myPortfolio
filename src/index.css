@@ -3,7 +3,7 @@ body {
   color: white;
   margin: 0px;
   text-align: center;
-  font-family: "Arial", "Helvetica", sans-serif;
+  font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
 }
 
@@ -21,8 +21,9 @@ body {
   margin: 2vh;
 }
 
-.about-me h2 {
+.about-me h2, .about-me h3 {
   margin-bottom: 0;
+  font-family: Georgia, Times, serif;
 }
 
 .about-me-main {
@@ -182,19 +183,37 @@ body {
 }
 
 .contact-list {
-  display: inline-block;
-  text-align: left;
-  list-style-position: inside;
-  padding: 0;
-  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.1rem;
+  width: fit-content;
 }
 
-.contact-list a {
+.contact-name {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+.contact-name p {
+  margin: 0;
+}
+
+.contact-route {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+.contact-route a {
   color: chocolate;
   text-decoration: none;
 }
-.contact-list a:hover {
+.contact-route a:hover {
   text-decoration: underline;
 }
 
