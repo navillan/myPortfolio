@@ -35,9 +35,9 @@ body {
 
 .about-me-photo {
   position: absolute;
-  left: 5%;
-  width: 14vh;
-  height: 14vh;
+  left: 6%;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
@@ -109,9 +109,9 @@ body {
 }
 
 .my-works-header {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .works-list {
@@ -218,6 +218,11 @@ body {
 }
 
 @media (max-width: 1360px) {
+  .about-me-photo {
+    left: 5%;
+    width: 140px;
+    height: 140px;
+  }
   .about-me-certificate:hover {
     transform: scale(2.4);
   }
