@@ -1,5 +1,6 @@
 import ThisIsMe from "../images/MediaMyself1MS.jpg";
 import ThisIsMyCertificate from "../images/AriBilgiBilisimJavascriptSertifikaMS.jpg";
+import $ from "jquery";
 
 function AboutMe() {
 
@@ -23,9 +24,12 @@ function AboutMe() {
       <h2>My Javascript Certificate</h2>
       <img
         className={`about-me-certificate`}
+        onMouseEnter={() => $('.certificate-overlay').css('display', 'block')}
+        onMouseLeave={() => $('.certificate-overlay').css('display', 'none')}
         src={ThisIsMyCertificate}
         alt="My-Certificate"
       />
+      <div className="certificate-overlay"></div>
       <div className="about-me-tech">
         <h3>Technologies I Work With:</h3>
         <ul className="about-me-tech-list">
