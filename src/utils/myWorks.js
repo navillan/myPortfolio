@@ -16,7 +16,7 @@ export const myWorksList = [
   {
     name: "Restorant Rezervasyon Sitesi",
     description: "A restaurant reservation website with firebase as it's backend.",
-    live: "https://navillan.github.io/js990projectFirebase/",
+    live: "https://navillan.github.io/js990projectFirestore",
     githubRepo: "https://github.com/navillan/js990projectFirestore",
     githubRepo2: "https://github.com/navillan/js990project",
     techs: "React, Firebase Techs(Backend): Node.js, CORS, Express, Firebase",
