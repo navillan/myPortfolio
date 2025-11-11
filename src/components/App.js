@@ -9,7 +9,6 @@ function App() {
       <AboutMe />
       <MyWorks />
       <Contact />
-      <div className="footer">Designed by Mert Selamlar</div>
       <div className="bottom-end"></div>
     </div>
   );

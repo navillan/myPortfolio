@@ -5,7 +5,7 @@ import EmailIcon from '../images/gmailImage.png';
 function Contact() {
   return (
     <div className="main-contact">
-      <h2>Contact Me</h2>
+      <h2>Contact</h2>
       <div className="contact-list">
         <div className="contact-name">
           <div style={{backgroundImage: `url(${EmailIcon})`}} className="contact-email" alt="Email" title="Email"></div>
