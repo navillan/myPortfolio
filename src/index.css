@@ -222,7 +222,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.1rem;
-  width: fit-content;
+  width: 500px;
 }
 .contact-name {
   font-weight: bold;
@@ -232,6 +232,7 @@ body {
   text-align: left;
   margin-top: 4px;
   margin-right: -8px;
+  margin-left: 20%;
 }
 .contact-email, .contact-linkedin, .contact-github {
   width: 24px;
@@ -432,7 +433,11 @@ body {
     transform: scale(1.6) translate(20%);
   }
   .contact-list {
-    font-size: 16px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .contact-name {
+    margin-left: 8%;
   }
   .contact-email, .contact-linkedin, .contact-github {
     width: 20x;
@@ -452,5 +457,11 @@ body {
     height: 44px;
     margin-top: -8px;
     margin-left: -10px;
-  }  
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-name {
+    margin-left: 5%;
+  }
 }
