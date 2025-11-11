@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.db737603.css",
-    "main.js": "/myPortfolio/static/js/main.14c770d6.js",
+    "main.css": "/myPortfolio/static/css/main.7c49e2b4.css",
+    "main.js": "/myPortfolio/static/js/main.5542f39c.js",
     "static/media/testYourLuckImg.PNG": "/myPortfolio/static/media/testYourLuckImg.06918f5730226ffa6966.PNG",
     "static/media/AriBilgiBilisimJavascriptSertifikaMS.jpg": "/myPortfolio/static/media/AriBilgiBilisimJavascriptSertifikaMS.dfd550794446f9c435dc.jpg",
     "static/media/exampleEcommerceSite.PNG": "/myPortfolio/static/media/exampleEcommerceSite.c97c509a96c1e5bbcd1d.PNG",
@@ -13,17 +13,17 @@
     "static/media/kelimeBulmacaImg.PNG": "/myPortfolio/static/media/kelimeBulmacaImg.ed1088bbb7fe75f47da1.PNG",
     "static/media/hesaplamaSitesi.PNG": "/myPortfolio/static/media/hesaplamaSitesi.56cb59bf73cd60de3b7e.PNG",
     "static/media/nodejsImage.png": "/myPortfolio/static/media/nodejsImage.007e99f68b718e476aba.png",
-    "static/media/reactImage.png": "/myPortfolio/static/media/reactImage.3bf6fb4b18b1f904676d.png",
     "static/media/cssImage.png": "/myPortfolio/static/media/cssImage.57ac229d6c624bed3295.png",
     "static/media/htmlImage.png": "/myPortfolio/static/media/htmlImage.6e930594286d8afe4c79.png",
     "static/media/gmailImage.png": "/myPortfolio/static/media/gmailImage.a2f2146f929409405da0.png",
     "static/media/jsImage.png": "/myPortfolio/static/media/jsImage.3dfb665e058d08c99f28.png",
+    "static/media/reactImage.png": "/myPortfolio/static/media/reactImage.98ff38735baa4c1b0381.png",
     "index.html": "/myPortfolio/index.html",
-    "main.db737603.css.map": "/myPortfolio/static/css/main.db737603.css.map",
-    "main.14c770d6.js.map": "/myPortfolio/static/js/main.14c770d6.js.map"
+    "main.7c49e2b4.css.map": "/myPortfolio/static/css/main.7c49e2b4.css.map",
+    "main.5542f39c.js.map": "/myPortfolio/static/js/main.5542f39c.js.map"
   },
   "entrypoints": [
-    "static/css/main.db737603.css",
-    "static/js/main.14c770d6.js"
+    "static/css/main.7c49e2b4.css",
+    "static/js/main.5542f39c.js"
   ]
 }
