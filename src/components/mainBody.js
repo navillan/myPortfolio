@@ -17,7 +17,7 @@ function MyWorks() {
               : null}
             </div>            
             <p className="tech-stack-description">Techs: {work.techs}</p>
-            <div className="work-item-image" style={{backgroundImage: `url(${work.image})`}}></div>
+            <div className="work-item-image" id={`${work.id}`} style={{backgroundImage: `url(${work.image})`}}></div>
           </div>
         ))}        
       </div>

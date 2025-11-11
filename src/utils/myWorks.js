@@ -7,6 +7,7 @@ import TestYourLuck from "../images/testYourLuckImg.PNG"
 export const myWorksList = [
   {
   name: "Test Your Luck",
+  id: "testYourLuck",
   description: "This was my first project; a game in which you compete against the computer. It marked the beginning of my journey.",
   live: "https://navillan.github.io/testYourLuck/",
   githubRepo: "https://github.com/navillan/testYourLuck",
@@ -14,7 +15,8 @@ export const myWorksList = [
   image: TestYourLuck
   }, 
   {
-    name: "Restorant Rezervasyon Sitesi",
+    name: "Restaurant Reservation Site",
+    id: "restaurantReservationSite",
     description: "A restaurant reservation website with firebase as it's backend.",
     live: "https://navillan.github.io/js990projectFirestore",
     githubRepo: "https://github.com/navillan/js990projectFirestore",
@@ -23,7 +25,8 @@ export const myWorksList = [
     image: RestorantRezervasyon
   },
   {
-    name: "Kelime Bulmaca",
+    name: "Word Puzzle Game",
+    id: "wordPuzzleGame",
     description: "A word puzzle game for Turkish words.",
     live: "https://navillan.github.io/kelimeBulmaca/",
     githubRepo: "https://github.com/navillan/kelimeBulmaca",
@@ -31,7 +34,8 @@ export const myWorksList = [
     image: KelimeBulmaca
   },
   {
-    name: "Hesap Sitesi",
+    name: "Calculator Site",
+    id: "calculatorSite",
     description: "A calculator website offering a wide range of features. The project remains under active development; however, several capabilities are already available for use.",
     live: "https://navillan.github.io/hesaplamaSitesi",
     githubRepo: "https://github.com/navillan/hesaplamaSitesi",
@@ -40,6 +44,7 @@ export const myWorksList = [
   },
   {
     name: "Example Ecommerce Site",
+    id: "exampleEcommerceSite",
     description: "An example ecommerce site.",
     live: "https://navillan.github.io/exampleEcommerce",
     githubRepo: "https://github.com/navillan/exampleEcommerce",
