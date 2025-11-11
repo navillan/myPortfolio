@@ -1,4 +1,6 @@
-
+import LinkedInIcon from '../images/linkedInImage.png';
+import GitHubIcon from '../images/githubImage.png';
+import EmailIcon from '../images/gmailImage.png';
 
 function Contact() {
   return (
@@ -6,9 +8,9 @@ function Contact() {
       <h2>Contact Me</h2>
       <div className="contact-list">
         <div className="contact-name">
-          <p>Email:</p>
-          <p>LinkedIn:</p>
-          <p>GitHub:</p>
+          <div style={{backgroundImage: `url(${EmailIcon})`}} className="contact-email" alt="Email" title="Email"></div>
+          <div style={{backgroundImage: `url(${LinkedInIcon})`}} className="contact-linkedin" alt="LinkedIn" title="LinkedIn"></div>
+          <div style={{backgroundImage: `url(${GitHubIcon})`}} className="contact-github" alt="GitHub" title="GitHub"></div>
         </div>
         <div className="contact-route">
           <a href="mailto:mertselamlar@gmail.com">
