@@ -7,7 +7,6 @@ import JsImage from "../images/jsImage.png";
 import JqueryImage from "../images/jqueryImage.png";
 import ReactImage from "../images/reactImage.png";
 import NodejsImage from "../images/nodejsImage.png";
-import NextjsImage from "../images/nextjsImage.png";
 import FirestoreImage from "../images/firestoreImage.png";
 
 function AboutMe() {
@@ -47,7 +46,6 @@ function AboutMe() {
           <div className="tech-images" style={{backgroundImage: `url(${JqueryImage})`}} alt="jQuery" title="jQuery"></div>
           <div className="tech-images" style={{backgroundImage: `url(${ReactImage})`}} alt="React" title="React"></div>
           <div className="tech-images" style={{backgroundImage: `url(${NodejsImage})`}} alt="Node.js" title="Node.js"></div>
-          <div className="tech-images" style={{backgroundImage: `url(${NextjsImage})`}} alt="Next.js" title="Next.js"></div>
           <div className="tech-images" style={{backgroundImage: `url(${FirestoreImage})`}} alt="Firestore" title="Firestore"></div>
         </div>
       </div>
